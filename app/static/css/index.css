@@ -10,21 +10,9 @@
     margin-top: 4%;
 }
 
-.register-left input {
-    border: none;
-    border-radius: 1.5rem;
-    padding: 2%;
-    width: 60%;
-    background: aliceblue !important;
-    font-weight: bold;
-    color: #383d41;
-    margin-top: 30%;
-    margin-bottom: 3%;
-    cursor: pointer;
-}
 
 .register-right {
-    background: aliceblue ;
+    background: black ;
     border-top-left-radius: 10% 50%;
     border-bottom-left-radius: 10% 50%;
 }
@@ -68,18 +56,6 @@
     margin-top: 10%;
 }
 
-.btnRegister {
-    float: right;
-    margin-top: 10%;
-    border: none;
-    border-radius: 1.5rem;
-    padding: 2%;
-    background: #0062cc;
-    color: #fff;
-    font-weight: 600;
-    width: 50%;
-    cursor: pointer;
-}
 
 .register .nav-tabs {
     margin-top: 3%;
@@ -90,14 +66,6 @@
     float: right;
 }
 
-.register .nav-tabs .nav-link {
-    padding: 2%;
-    height: 34px;
-    font-weight: 600;
-    color: #fff;
-    border-top-right-radius: 1.5rem;
-    border-bottom-right-radius: 1.5rem;
-}
 
 .register .nav-tabs .nav-link:hover {
     border: none;
@@ -111,20 +79,13 @@
     border-bottom-left-radius: 1.5rem;
 }
 
-.register-heading {
-    text-align: center;
-    margin-top: 8%;
-    margin-bottom: -15%;
-    color: #495057;
-    
 
-}
 
 .jumbotron {
-    background-color: rgba(24, 20, 19, 0.5) !important;
-    color: black !important;
-    font-size:15px;
-    opacity: 10 !important;
+    background-color: rgba(110, 106, 105, 0.5) !important;
+    color: white !important;
+    font-size:18px;
+    opacity: 0.9 !important;
     
 }
 

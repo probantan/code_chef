@@ -1,4 +1,10 @@
-
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="navbar navbar-inverse" role="navigation">
         <div class="container-fluid">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                   <span class="sr-only">Toggle navigation</span>
@@ -11,8 +17,10 @@
               </a></a>
  <ul class="nav navbar-nav navbar-right">
                 {% if current_user.is_authenticated %}
-                     <li><a href="{{url_for('main.profile',uname=current_user.username)}}"style=" font-weight:bolder; font-size:20px;color:white;">Profile</a></li>
-                  <li ><a href="{{url_for('auth.logout')}}"style=" font-weight:bolder; font-size:20px;color:ghostwhite;">Sign out</a></li>
+                    <h3 style="color:white;position:relative; top:90px;">  {{current_user.username| capitalize}} </h3>
+                     <li><a  href="{{url_for('main.profile',uname=current_user.username)}}"style=" font-weight:bolder; font-size:20px;color:white; position:relative;left:70px;top:50px">Profile</a></li>
+
+                  <li ><a href="{{url_for('auth.logout')}}"style=" font-weight:bolder; font-size:20px;color:ghostwhite; position:relative; left:200px; bottom:60px;">Sign out</a></li>
                   {% else %}
                   <li><a href="{{url_for('auth.login')}}"style=" font-weight:bolder; font-size:20px;color:ghostwhite;">Sign in</a></li>
                   {%endif%}

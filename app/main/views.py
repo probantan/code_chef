@@ -52,5 +52,5 @@ def update_pic(uname):
         path = f'photos/{filename}'
         user.profile_pic_path = path
         db.session.commit()
-        return rediredt(url_for('index.html'))
+        return redirect(url_for('main.index'))
     return redirect(url_for('main.profile',uname=uname))
